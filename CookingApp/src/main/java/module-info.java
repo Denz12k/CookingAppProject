@@ -10,6 +10,7 @@ module com.unnamed.cookingapp {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires com.google.gson;
 
     opens com.unnamed.cookingapp to javafx.fxml;
     exports com.unnamed.cookingapp;
