@@ -10,6 +10,7 @@ public class Recipe {
     private String imageUrl;            // Recipe image URL
     private List<String> ingredients;   // Ingredients list
     private String instructions;        // Step-by-step instructions
+    private int duration;               // Recipe duration in minutes
 
     // Default image URL
     private static final String DEFAULT_IMAGE_URL =
@@ -19,6 +20,7 @@ public class Recipe {
     public Recipe() {
         this.ingredients = new ArrayList<>();
         this.imageUrl = DEFAULT_IMAGE_URL;
+        this.duration = 0; // Default duration 0
     }
 
     // Getters and Setters
@@ -42,6 +44,9 @@ public class Recipe {
 
     public String getInstructions() { return instructions; }
     public void setInstructions(String instructions) { this.instructions = instructions; }
+
+    public int getDuration() { return duration; }
+    public void setDuration(int duration) { this.duration = duration; }
 
     // Adders
     public void addIngredient(String ingredient) { ingredients.add(ingredient); }
