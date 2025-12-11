@@ -12,6 +12,7 @@ module com.unnamed.cookingapp {
     requires com.almasb.fxgl.all;
     requires com.google.gson;
 
-    opens com.unnamed.cookingapp to javafx.fxml;
+    opens com.unnamed.cookingapp to com.google.gson;
+
     exports com.unnamed.cookingapp;
 }

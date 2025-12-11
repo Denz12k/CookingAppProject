@@ -1,0 +1,419 @@
+[
+  {
+    "id": 1001,
+    "title": "Tomato Cucumber Salad",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2019/07/Cucumber-Tomato-Salad-SpendWithPennies-3.jpg",
+    "ingredients": [
+      "Tomato",
+      "Cucumber",
+      "Olive Oil",
+      "Salt",
+      "Lemon"
+    ],
+    "instructions": "Chop tomato and cucumber. Mix with olive oil, salt and lemon. Serve chilled.",
+    "duration": 10
+  },
+  {
+    "id": 1002,
+    "title": "Garlic Butter Salmon",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2020/02/Garlic-Butter-Salmon-SWP-2F3A2227_1.jpg",
+    "ingredients": [
+      "Salmon",
+      "Garlic",
+      "Butter",
+      "Salt",
+      "Lemon"
+    ],
+    "instructions": "Sear salmon, add garlic butter sauce, bake for 10 minutes. Serve with lemon.",
+    "duration": 25
+  },
+  {
+    "id": 1003,
+    "title": "Pancakes",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2014/06/Homemade-Pancake-Mix-This-is-quick-and-easy...-just-mix-it-up-and-store-it-in-the-cupboard-No-need-to-buy-pancake-mix-anymore.jpg",
+    "ingredients": [
+      "Flour",
+      "Milk",
+      "Eggs",
+      "Sugar",
+      "Baking Powder",
+      "Butter"
+    ],
+    "instructions": "Mix dry ingredients, add milk and eggs. Cook on griddle until golden.",
+    "duration": 20
+  },
+  {
+    "id": 1004,
+    "title": "Spaghetti Carbonara",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/09/1200-Spaghetti-Carbonara-4-SpendWithPennies.jpg",
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pancetta",
+      "Parmesan",
+      "Black Pepper"
+    ],
+    "instructions": "Cook spaghetti. Fry pancetta. Mix eggs and parmesan. Combine all with pepper.",
+    "duration": 30
+  },
+  {
+    "id": 1005,
+    "title": "Chicken Caesar Salad",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/02/1200-Chicken-Caesar-Salad-2-SpendWithPennies-3-1024x1536.jpg",
+    "ingredients": [
+      "Chicken Breast",
+      "Romaine Lettuce",
+      "Croutons",
+      "Parmesan",
+      "Caesar Dressing"
+    ],
+    "instructions": "Grill chicken, chop lettuce, add croutons, parmesan, and dressing. Toss well.",
+    "duration": 20
+  },
+  {
+    "id": 1006,
+    "title": "Chocolate Brownies",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2020/11/Fudgy-Chocolate-Brownies-SpendWithPennies-1-1.jpg",
+    "ingredients": [
+      "Dark Chocolate",
+      "Butter",
+      "Sugar",
+      "Eggs",
+      "Flour"
+    ],
+    "instructions": "Melt chocolate and butter. Mix sugar and eggs. Combine all with flour and bake.",
+    "duration": 35
+  },
+  {
+    "id": 1007,
+    "title": "Avocado Toast",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/03/1200-Avocado-Toast-2-SpendWithPennies-1-1024x1536.jpg",
+    "ingredients": [
+      "Bread",
+      "Avocado",
+      "Lemon",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "Toast bread, mash avocado with lemon, salt and pepper, spread on toast.",
+    "duration": 10
+  },
+  {
+    "id": 1008,
+    "title": "Beef Tacos",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2019/05/Ground-Beef-Tacos-SWP-5.jpg",
+    "ingredients": [
+      "Taco Shells",
+      "Ground Beef",
+      "Cheese",
+      "Lettuce",
+      "Salsa"
+    ],
+    "instructions": "Cook beef with spices, fill taco shells with beef, lettuce, cheese, and salsa.",
+    "duration": 25
+  },
+  {
+    "id": 1009,
+    "title": "Vegetable Stir Fry",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2018/10/Stir-Fry-Veggies-5.jpg",
+    "ingredients": [
+      "Broccoli",
+      "Carrot",
+      "Bell Pepper",
+      "Soy Sauce",
+      "Garlic"
+    ],
+    "instructions": "Stir fry vegetables with garlic and soy sauce over high heat for 5-7 minutes.",
+    "duration": 15
+  },
+  {
+    "id": 1010,
+    "title": "Lemon Cheesecake",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2015/06/Lemon-Meringue-Pie-Cheesecake.jpg",
+    "ingredients": [
+      "Cream Cheese",
+      "Sugar",
+      "Eggs",
+      "Lemon",
+      "Graham Crackers"
+    ],
+    "instructions": "Mix cream cheese, sugar, eggs, and lemon. Pour on crust and bake until set.",
+    "duration": 60
+  },
+  {
+    "id": 1011,
+    "title": "Grilled Cheese Sandwich",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2024/04/1200-The-Best-Grilled-Cheese-Sandwich-2-SpendWithPennies-1024x1536.jpg",
+    "ingredients": [
+      "Bread",
+      "Cheddar Cheese",
+      "Butter"
+    ],
+    "instructions": "Butter bread, add cheese, grill until golden.",
+    "duration": 10
+  },
+  {
+    "id": 1012,
+    "title": "Greek Salad",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2023/08/Greek-Salad-SpendWithPennies-23-101-1024x1536.jpg",
+    "ingredients": [
+      "Tomato",
+      "Cucumber",
+      "Feta",
+      "Olives",
+      "Olive Oil",
+      "Onion"
+    ],
+    "instructions": "Chop vegetables, add feta and olives, drizzle with olive oil.",
+    "duration": 10
+  },
+  {
+    "id": 1013,
+    "title": "Caprese Salad",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2023/06/1200-Caprese-Salad-2-SpendWithPennies.jpg",
+    "ingredients": [
+      "Tomato",
+      "Mozzarella",
+      "Basil",
+      "Olive Oil",
+      "Salt"
+    ],
+    "instructions": "Layer tomato and mozzarella slices, add basil, drizzle with olive oil.",
+    "duration": 10
+  },
+  {
+    "id": 1014,
+    "title": "Strawberry Banana Smoothie",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2014/01/SpendWithPennies-2-Strawberry-Banana-Smoothie-23.jpg",
+    "ingredients": [
+      "Banana",
+      "Strawberry",
+      "Milk",
+      "Honey",
+      "Ice"
+    ],
+    "instructions": "Blend all ingredients until smooth.",
+    "duration": 5
+  },
+  {
+    "id": 1015,
+    "title": "Veggie Omelette",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2021/02/1200-How-to-Make-an-Omelette-SpendWithPennies-1-1024x1536.jpg",
+    "ingredients": [
+      "Eggs",
+      "Onion",
+      "Bell Pepper",
+      "Spinach",
+      "Cheese"
+    ],
+    "instructions": "Beat eggs, add vegetables, cook on skillet, fold, and serve.",
+    "duration": 15
+  },
+  {
+    "id": 1016,
+    "title": "Shrimp Fried Rice",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2019/03/Shrimp-Stir-Fry-SpendWithPennies-6.jpg",
+    "ingredients": [
+      "Rice",
+      "Shrimp",
+      "Eggs",
+      "Peas",
+      "Soy Sauce"
+    ],
+    "instructions": "Stir fry shrimp, add rice, eggs, peas, and soy sauce until heated.",
+    "duration": 20
+  },
+  {
+    "id": 1017,
+    "title": "BBQ Ribs",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2019/04/Crock-Pot-Ribs-SWP-5.jpg",
+    "ingredients": [
+      "Pork Ribs",
+      "BBQ Sauce",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "Season ribs, bake or grill, brush with BBQ sauce until caramelized.",
+    "duration": 90
+  },
+  {
+    "id": 1018,
+    "title": "Margarita Pizza",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2018/05/Easy-Margherita-Pizza-Recipe-1-of-1-4.jpg",
+    "ingredients": [
+      "Pizza Dough",
+      "Tomato Sauce",
+      "Mozzarella",
+      "Basil"
+    ],
+    "instructions": "Top dough with sauce, cheese, and basil, bake until crust is golden.",
+    "duration": 25
+  },
+  {
+    "id": 1019,
+    "title": "French Toast",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/04/French-Toast-Recipe-SpendWithPennies-6-1024x1536.jpg",
+    "ingredients": [
+      "Bread",
+      "Eggs",
+      "Milk",
+      "Sugar",
+      "Cinnamon"
+    ],
+    "instructions": "Dip bread in egg mixture, fry until golden, sprinkle with sugar and cinnamon.",
+    "duration": 15
+  },
+  {
+    "id": 1020,
+    "title": "Spicy Tuna Roll",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/02/California-Roll-Sushi-Bowl-SpendWithPennies-5-1024x1536.jpg",
+    "ingredients": [
+      "Sushi Rice",
+      "Nori",
+      "Tuna",
+      "Sriracha",
+      "Cucumber"
+    ],
+    "instructions": "Roll tuna with rice, nori, cucumber, and spicy mayo, slice and serve.",
+    "duration": 20
+  },
+  {
+    "id": 1021,
+    "title": "Chicken Fajitas",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2018/07/Easy-Chicken-Fajitas-5-SpendWithPennies.jpg",
+    "ingredients": [
+      "Chicken",
+      "Bell Pepper",
+      "Onion",
+      "Tortilla",
+      "Spices"
+    ],
+    "instructions": "Cook chicken and vegetables with spices, serve in tortillas.",
+    "duration": 30
+  },
+  {
+    "id": 1022,
+    "title": "Chocolate Chip Cookies",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2017/02/soft-chewy-chocolate-chip-cookies-1-of-1-2.jpg",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Butter",
+      "Eggs",
+      "Chocolate Chips"
+    ],
+    "instructions": "Mix ingredients, drop onto baking tray, bake until golden.",
+    "duration": 25
+  },
+  {
+    "id": 1023,
+    "title": "Caprese Skewers",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2022/11/1200-Caprese-Skewers-SpendWithPennies.jpg",
+    "ingredients": [
+      "Cherry Tomatoes",
+      "Mozzarella Balls",
+      "Basil",
+      "Olive Oil"
+    ],
+    "instructions": "Skewer tomatoes, mozzarella, and basil. Drizzle with olive oil.",
+    "duration": 10
+  },
+  {
+    "id": 1024,
+    "title": "Egg Fried Rice",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2017/12/Cauliflower-Fried-Rice-24.jpg",
+    "ingredients": [
+      "Rice",
+      "Eggs",
+      "Onion",
+      "Peas",
+      "Soy Sauce"
+    ],
+    "instructions": "Cook onions, scramble eggs, add rice and peas, stir fry with soy sauce.",
+    "duration": 20
+  },
+  {
+    "id": 1025,
+    "title": "Mushroom Risotto",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2023/07/1200-Creamy-Mushroom-Risotto-SpendWithPennies.jpg",
+    "ingredients": [
+      "Arborio Rice",
+      "Mushroom",
+      "Onion",
+      "Parmesan",
+      "Butter"
+    ],
+    "instructions": "Cook onions, add rice and mushrooms, gradually add broth, finish with parmesan.",
+    "duration": 40
+  },
+  {
+    "id": 1026,
+    "title": "Greek Yogurt Parfait",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/07/Strawberry-Parfait-SpendWithPennies-8.jpg",
+    "ingredients": [
+      "Greek Yogurt",
+      "Granola",
+      "Honey",
+      "Berries"
+    ],
+    "instructions": "Layer yogurt, granola, and berries in a glass. Drizzle honey on top.",
+    "duration": 5
+  },
+  {
+    "id": 1027,
+    "title": "Beef Burger",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2014/06/Jalapeno-Cheddar-Burgers-These-are-amazing-with-turkey-or-beef-I-used-turkey-for-these-and-it-was-delicious-and-juicy.jpg",
+    "ingredients": [
+      "Burger Bun",
+      "Ground Beef",
+      "Cheese",
+      "Lettuce",
+      "Tomato"
+    ],
+    "instructions": "Cook beef patty, assemble burger with bun, cheese, lettuce, and tomato.",
+    "duration": 20
+  },
+  {
+    "id": 1028,
+    "title": "Veggie Wrap",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2025/04/Easy-Chicken-Lettuce-Wraps-SpendWithPennies-3.jpg",
+    "ingredients": [
+      "Tortilla",
+      "Lettuce",
+      "Tomato",
+      "Cucumber",
+      "Hummus"
+    ],
+    "instructions": "Spread hummus on tortilla, add vegetables, roll and slice.",
+    "duration": 10
+  },
+  {
+    "id": 1029,
+    "title": "Fruit Salad",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2019/04/Fruit-Salad-SWP-5.jpg",
+    "ingredients": [
+      "Apple",
+      "Orange",
+      "Banana",
+      "Grapes",
+      "Honey"
+    ],
+    "instructions": "Chop fruits, mix, drizzle honey on top, serve chilled.",
+    "duration": 10
+  },
+  {
+    "id": 1030,
+    "title": "Pumpkin Soup",
+    "imageUrl": "https://www.spendwithpennies.com/wp-content/uploads/2022/11/1200-Pumpkin-Soup-SpendWithPennies.jpg",
+    "ingredients": [
+      "Pumpkin",
+      "Onion",
+      "Garlic",
+      "Cream",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": "Cook pumpkin with onion and garlic, blend, add cream, season with salt and pepper.",
+    "duration": 35
+  }
+]
