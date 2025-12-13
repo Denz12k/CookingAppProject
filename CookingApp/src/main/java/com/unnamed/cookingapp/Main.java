@@ -5,6 +5,8 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.stage.FileChooser;
+import java.io.File;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -136,7 +138,7 @@ public class Main extends Application {
                             "- Oscar Martin Henry Jean DEBACKER (oscar.debacker@edu.rtu.lv)\n" +
                             "- Jean-Marc BOURDELOIE (jean-marc.bourdeloie@edu.rtu.lv)\n" +
                             "- Arsalan KHAN (Arsalan.Khan@edu.rtu.lv)\n" +
-                            "- XXXXXXX (XXX.XXXXXX@example.com)"
+                            "- Jakhongir FOZILOV (jakhongir.fozilov@edu.rtu.lv)"
             );
             developer.setFont(Font.font("Arial", 14));
 
@@ -164,7 +166,7 @@ public class Main extends Application {
 
         return menuBar;
     }
-    
+
     private void openAddRecipeDialog() {
         Stage dialog = new Stage();
         dialog.initModality(Modality.APPLICATION_MODAL);
@@ -185,6 +187,27 @@ public class Main extends Application {
         TextArea instructionsArea = new TextArea();
         instructionsArea.setPromptText("Instructions");
 
+        // Image selection
+        final String[] selectedImagePath = {null};
+
+        Button imageButton = new Button("Select Image");
+        Label imageLabel = new Label("No image selected");
+
+        imageButton.setOnAction(e -> {
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setTitle("Choose Recipe Image");
+            fileChooser.getExtensionFilters().add(
+                    new FileChooser.ExtensionFilter(
+                            "Image Files", "*.png", "*.jpg", "*.jpeg")
+            );
+
+            File file = fileChooser.showOpenDialog(dialog);
+            if (file != null) {
+                selectedImagePath[0] = file.toURI().toString();
+                imageLabel.setText("Image selected");
+            }
+        });
+
         Button saveButton = new Button("Save");
         saveButton.setOnAction(e -> {
             try {
@@ -196,10 +219,21 @@ public class Main extends Application {
                 Recipe newRecipe = new Recipe();
                 newRecipe.setId(recipes.size() + 1001);
                 newRecipe.setTitle(titleField.getText().trim());
-                newRecipe.setDuration(Integer.parseInt(durationField.getText().trim()));
-                newRecipe.setIngredients(Arrays.stream(ingredientsArea.getText().split(","))
-                        .map(String::trim).collect(Collectors.toList()));
+                newRecipe.setDuration(
+                        Integer.parseInt(durationField.getText().trim())
+                );
+                newRecipe.setIngredients(
+                        Arrays.stream(ingredientsArea.getText().split(","))
+                                .map(String::trim)
+                                .collect(Collectors.toList())
+                );
                 newRecipe.setInstructions(instructionsArea.getText().trim());
+
+                newRecipe.setImageUrl(
+                        selectedImagePath[0] != null
+                                ? selectedImagePath[0]
+                                : "default.png"
+                );
 
                 recipes.add(newRecipe);
                 filteredRecipes.add(newRecipe);
@@ -217,10 +251,11 @@ public class Main extends Application {
                 new Label("Duration:"), durationField,
                 new Label("Ingredients:"), ingredientsArea,
                 new Label("Instructions:"), instructionsArea,
+                imageButton, imageLabel,
                 saveButton
         );
 
-        Scene scene = new Scene(vbox, 400, 450);
+        Scene scene = new Scene(vbox, 400, 480);
         dialog.setScene(scene);
         dialog.showAndWait();
     }
