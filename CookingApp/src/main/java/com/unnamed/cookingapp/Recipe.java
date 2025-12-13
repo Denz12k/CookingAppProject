@@ -13,7 +13,7 @@ public class Recipe {
     private int duration;               // Recipe duration in minutes
 
     // Default image URL
-    private static final String DEFAULT_IMAGE_URL =
+    static final String DEFAULT_IMAGE_URL =
             "https://i0.wp.com/pediaa.com/wp-content/uploads/2021/09/Food.jpg?resize=570%2C380&ssl=1";
 
     // Constructor

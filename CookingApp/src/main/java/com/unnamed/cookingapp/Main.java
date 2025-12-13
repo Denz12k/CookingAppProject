@@ -59,7 +59,25 @@ public class Main extends Application {
         MenuItem addRecipe = new MenuItem("Add New Recipe");
         addRecipe.setOnAction(e -> openAddRecipeDialog());
 
-        recipeMenu.getItems().add(addRecipe);
+        /* MenuItem importFromApi = new MenuItem("Import 10 Recipes from API");
+        importFromApi.setOnAction(e -> {
+            List<Recipe> newRecipes = MealApiImporter.fetchNextBatch();
+
+            if (newRecipes.isEmpty()) {
+                showAlert("Info", null, "No more recipes to import.");
+                return;
+            }
+
+            recipes.addAll(newRecipes);
+            filteredRecipes = new ArrayList<>(recipes);
+            RecipeSaver.saveRecipes(recipes);
+            createRecipeGrid(filteredRecipes);
+
+            showAlert("Success", null,
+                    newRecipes.size() + " new recipes imported!");
+        }); */
+
+        recipeMenu.getItems().addAll(addRecipe /* , importFromApi */ );
 
         // ------------------ Help Menu ------------------
         Menu helpMenu = new Menu("Help");
@@ -84,7 +102,7 @@ public class Main extends Application {
 
             TitledPane addRecipe_ = createSection("➕ 2. Adding a Recipe",
                     "Click 'Recipe -> Add New Recipe'.\n" +
-                            "Enter Title, Duration, Ingredients, Instructions and click 'Save'.");
+                            "Enter Title, Duration, Ingredients, Instructions, Image and click 'Save'.");
 
             TitledPane editRecipe = createSection("✏️ 3. Editing a Recipe",
                     "Click a recipe image to open details.\n" +
@@ -232,7 +250,7 @@ public class Main extends Application {
                 newRecipe.setImageUrl(
                         selectedImagePath[0] != null
                                 ? selectedImagePath[0]
-                                : "default.png"
+                                : Recipe.DEFAULT_IMAGE_URL
                 );
 
                 recipes.add(newRecipe);
@@ -667,8 +685,8 @@ public class Main extends Application {
 
         m.put("Produce", Arrays.asList(
                 "Tomato", "Onion", "Garlic", "Bell Pepper", "Cucumber",
-                "Carrot", "Potato", "Lettuce", "Spinach", "Broccoli",
-                "Mushroom", "Zucchini"
+                "Carrot", "Lettuce", "Spinach", "Broccoli",
+                "Mushroom"
         ));
 
         m.put("Dairy & Eggs", Arrays.asList(
@@ -682,9 +700,8 @@ public class Main extends Application {
         ));
 
         m.put("Pantry Staples", Arrays.asList(
-                "Flour", "Sugar", "Salt", "Rice", "Pasta", "Olive Oil",
-                "Vinegar", "Baking Powder", "Soy Sauce", "Canned Tomatoes",
-                "Canned Beans", "Bread Crumbs"
+                "Flour", "Sugar", "Salt", "Rice", "Olive Oil",
+                "Vinegar", "Baking Powder", "Soy Sauce"
         ));
 
         m.put("Herbs & Spices", Arrays.asList(
@@ -693,18 +710,13 @@ public class Main extends Application {
         ));
 
         m.put("Sauces & Condiments", Arrays.asList(
-                "Ketchup", "Mayonnaise", "Mustard", "BBQ Sauce", "Hot Sauce",
-                "Honey", "Soy Sauce", "Salsa", "Pesto", "Tahini"
-        ));
-
-        m.put("Nuts & Seeds", Arrays.asList(
-                "Almonds", "Walnuts", "Cashews", "Sunflower Seeds", "Pumpkin Seeds",
-                "Chia Seeds", "Peanuts", "Pecans"
+                "Ketchup", "Mayonnaise", "Mustard", "BBQ Sauce",
+                "Honey", "Salsa", "Pesto", "Tahini"
         ));
 
         m.put("Fruits", Arrays.asList(
                 "Apple", "Banana", "Orange", "Strawberry", "Blueberry",
-                "Lemon", "Lime", "Mango", "Peach", "Pineapple"
+                "Lemon", "Lime", "Mango"
         ));
 
         return m;
